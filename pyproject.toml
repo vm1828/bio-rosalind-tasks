@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bio-rosalind-problems"
+version = "0.1.0"
+description = "Solutions for Rosalind bioinformatic problems"
+authors = ["vm1828 <vm18281828@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.84"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
